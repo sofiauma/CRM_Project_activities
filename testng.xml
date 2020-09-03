@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="TestNg Demo Suite">
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+    <test  name="testng Test">
+       <classes>
+       <class name="batch6.testng.CRM_Project_09_DisplayLeads" />
+       </classes>
+    </test>
+</suite>
+
+   
